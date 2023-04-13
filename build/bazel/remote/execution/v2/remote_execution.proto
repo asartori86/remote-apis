@@ -1890,6 +1890,12 @@ message DigestFunction {
     // The BLAKE3 hash function.
     // See https://github.com/BLAKE3-team/BLAKE3.
     BLAKE3 = 9;
+
+    // use git-sha1 hasing function
+    // note that trees and blobs are hashed differently
+    // tree-hashes begin with 74
+    // blob-hashes begin with 62
+    GITSHA1 = 10;
   }
 }
 
