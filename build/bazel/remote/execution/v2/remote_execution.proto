@@ -1895,7 +1895,7 @@ message DigestFunction {
     // note that trees and blobs are hashed differently
     // tree-hashes begin with 74
     // blob-hashes begin with 62
-    GITSHA1 = 10;
+    GITSHA1 = 101;
   }
 }
 
